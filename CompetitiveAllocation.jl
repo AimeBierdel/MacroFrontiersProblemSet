@@ -30,7 +30,6 @@ w = zeros( n,m)*1.
 w[1,:] = [ -0.5,-0.5,-0.5] ## Same agent preferences
 w[2,:] = [ -0.5,-0.5,-0.5]
 w[3,:] = [ -0.5,-0.5,-0.5]
-lambda = [1,1,1] # Same weight on each agent
 
 
 du(i,j,x) = alpha[j]* x^w[i,j]
